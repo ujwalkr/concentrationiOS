@@ -17,6 +17,8 @@ class ConcentrastionViewController: UIViewController {
         }
     }
     
+    
+    /// This method update the flip count label
     private func updateFlipCountLabel(){
         let attributes : [NSAttributedStringKey: Any] = [
             .strokeWidth : 5.0,
